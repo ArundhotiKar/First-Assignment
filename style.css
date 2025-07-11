@@ -15,6 +15,10 @@
    color: #4E47FF;
    font-weight: 800;
  }
+ button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
 
  .form-in-one-line {
    display: flex;
@@ -164,12 +168,13 @@
    margin-top: 0;
  }
 
- .raleway-inter {
-   font-family: "Raleway", sans-serif;
-   font-weight: 800;
-
- }
-
+ 
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
  .text-color-h1 {
    color: #4E47FF;
    font-size: largers;
@@ -279,9 +284,9 @@
 
  .reviewer_card {
    padding: 24px;
-   background-color: #FFFFFF;
+   background-color: #f2d9d9;
    width: 366px;
-   height: 243px;
+   height: 180px;
  }
 
  .reviewers {
@@ -292,14 +297,14 @@
    /* Optional */
  }
 .focus{
-  background-color: #bcbce7;
+  background-color: #9f9fa5;
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 40px;
-   max-width: 1200px;
+   max-width: 1100px;
    width: 100%;
-   height: 600px;
+   height: 500px;
    margin: auto;
    box-sizing: border-box;
    flex-wrap: wrap;
@@ -317,6 +322,7 @@
 }
 .get-btn{
    background-color: #4E47FF;
+   border: none;
 }
 
  input {
@@ -325,6 +331,7 @@
    font-size: 16px;
    padding: 10px;
    border-radius: 10px;
+   border: none;
  }
 
  textarea {
@@ -353,6 +360,7 @@
    height: 40px;
    text-align: center;
    border-radius: 10;
+   border: none;
  }
 
  .footer-style {
