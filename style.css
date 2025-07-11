@@ -188,7 +188,7 @@
    height: 400px;
    max-width: 1000px;
    width: 100%;
-   background-color: #cacad6;
+   background-color: #e5e5f2;
    align-items: center;
    padding: 40px;
    border-radius: 15px;
@@ -286,7 +286,7 @@
    padding: 24px;
    background-color: #f2d9d9;
    width: 366px;
-   height: 180px;
+   height: 210px;
  }
 
  .reviewers {
@@ -297,7 +297,7 @@
    /* Optional */
  }
 .focus{
-  background-color: #9f9fa5;
+  background-color: #dfdfec;
    display: flex;
    justify-content: space-between;
    align-items: center;
