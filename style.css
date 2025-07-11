@@ -97,7 +97,7 @@
    max-width: 50%;
  }
 
- .launch-button{
+ .launch-button {
    height: 30px;
    width: 180px;
    background-color: #4E47FF;
@@ -111,8 +111,60 @@
    border-radius: 8px;
    cursor: pointer;
  }
- .preview-image
- {
-    max-width: 30%;
-    border-radius: 24px;
+
+ .preview-image {
+   max-width: 30%;
+   border-radius: 24px;
  }
+
+ .section2 {
+   background-color: rgb(171, 169, 215);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px;
+   max-width: 1200px;
+   width: 100%;
+   margin: auto;
+   box-sizing: border-box;
+    text-align: center; 
+    flex-direction: column;
+    border-radius: 20px;
+ }
+ .action-div{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+ }
+ .user-div-size {
+  width: 110px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1px; 
+  align-items: center; 
+  justify-content: center; 
+  /* background-color: #f0f0f0;  */
+  border-radius: 8px;  
+}
+.user-div-size h1 {
+  margin-bottom: 0;
+}
+
+.user-div-size p {
+  margin-top: 0;
+}
+
+.raleway-inter{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.text-color-h1{
+  color: #4E47FF;
+  font-size: xx-large;
+}
+.user-div-size p {
+  font-size: 12px; 
+}
