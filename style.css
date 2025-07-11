@@ -291,6 +291,33 @@
    font-weight: bold;
    /* Optional */
  }
+.focus{
+  background-color: #bcbce7;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px;
+   max-width: 1200px;
+   width: 100%;
+   height: 600px;
+   margin: auto;
+   box-sizing: border-box;
+   flex-wrap: wrap;
+   flex-direction: column;
+   gap: 0;
+   border-radius: 20px;
+   box-sizing: border-box;
+   text-align: center; 
+}
+.focus div img {
+    width: 500px;   
+    height: auto;   
+    display: block; 
+    margin-top: 10px; 
+}
+.get-btn{
+   background-color: #4E47FF;
+}
 
  input {
    width: 300px;
@@ -311,13 +338,13 @@
  .contact-text {
    flex: 1;
    max-width: 60%;
-   /* আপনার ডিজাইন অনুযায়ী 30% - 50% দিন */
+  
  }
 
  .contact-form {
    flex: 1;
    max-width: 60%;
-   /* যাতে form বেশি জায়গা না নেয় */
+   
  }
 
  .submit-btn {
