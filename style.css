@@ -1,0 +1,81 @@
+ .hero-header{
+   background-image: url('../Assets/Hero-bg.png');
+   background-size: cover;
+   height: 350px;
+ }
+ 
+.raleway-raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.text-color{
+    color: #4E47FF;
+    font-weight: 800;
+}
+
+.form-in-one-line
+{
+   display: flex;
+   justify-content: space-between;
+   padding-right: 2%;
+   padding-left: 2%;
+   padding-top: 2%;
+}
+.btn-sign-up {
+  height: 30px;
+  width: 80px;
+  background-color: #4E47FF;
+  
+  text-align: center; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 0; 
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+}
+.stay-focus-btn{
+  height: 27px;
+  width: 120px;
+  background-color: #4E47FF;
+  
+  text-align: center; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 0; 
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+}
+
+.color{
+    color: white;
+}
+
+.container {
+  height: 70px; 
+  width: 80%;
+  display: flex;
+  align-items: center;      
+  justify-content: center;
+  /* background-color: #f0f0f0; */
+  padding: 50px 10px 30px 10px;
+  margin: 0 auto; 
+  gap: 20px;
+}
+.center-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.center-box-h2 {
+  margin: 0;
+  line-height: 1.2;
+}
