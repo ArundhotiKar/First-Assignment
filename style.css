@@ -128,121 +128,231 @@
    height: 200px;
    margin: auto;
    box-sizing: border-box;
-    text-align: center; 
-    flex-direction: column;
-    border-radius: 20px;
+   text-align: center;
+   flex-direction: column;
+   border-radius: 20px;
  }
- .action-div{
-    display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
+
+ .action-div {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 30px;
  }
+
  .user-div-size {
-  width: 200px;
-  height: 80px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 1px; 
-  align-items: center; 
-  justify-content: center; 
-  /* background-color: #f0f0f0;  */
-  border-radius: 8px;  
-}
-.user-div-size h1 {
-  margin: 0;
-  font-size: 28px;
-  font-weight: 800;
-  line-height: 1;
-  padding-bottom: 2px;
-  font-feature-settings: "tnum"; 
-}
+   width: 200px;
+   height: 80px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 1px;
+   align-items: center;
+   justify-content: center;
+   /* background-color: #f0f0f0;  */
+   border-radius: 8px;
+ }
 
-.user-div-size p {
-  margin-top: 0;
-}
+ .user-div-size h1 {
+   margin: 0;
+   font-size: 28px;
+   font-weight: 800;
+   line-height: 1;
+   padding-bottom: 2px;
+   font-feature-settings: "tnum";
+ }
 
-.raleway-inter {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
+ .user-div-size p {
+   margin-top: 0;
+ }
+
+ .raleway-inter {
+   font-family: "Raleway", sans-serif;
+   font-weight: 800;
+
+ }
+
+ .text-color-h1 {
+   color: #4E47FF;
+   font-size: largers;
+ }
+
+ .user-div-size p {
+   font-size: 12px;
+ }
+
+ .contact-container {
+   height: 400px;
+   max-width: 1000px;
+   width: 100%;
+   background-color: #cacad6;
+   align-items: center;
+   padding: 40px;
+   border-radius: 15px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+
+
+ }
+
+ .text-size-h1 {
+   font-size: 45px;
+ }
+
+ .text_center {
+   text-align: center;
+ }
+
+ .card {
+   background-color: white;
+   border-radius: 10px;
+   padding: 25px;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+   width: 100%;
+   max-width: 320px;
+   text-align: left;
+ }
+
+ .stars {
+   color: gold;
+   font-size: 20px;
+   margin-bottom: 10px;
+ }
+
+ .card h3 {
+   font-size: 20px;
+   font-weight: bold;
+   margin: 10px 0;
+ }
+
+ .card p {
+   font-size: 14px;
+   color: #555;
+ }
+
+ .reviewer {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+   gap: 10px;
+
+ }
+
+ .reviewer img {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+ }
+
+ .name {
+   font-weight: bold;
+   margin: 0;
+ }
+
+ .date {
+   font-size: 12px;
+   color: #888;
+   margin: 0;
+ }
+
+ .review_container {
+
+   display: flex;
+   padding: 40px;
+   justify-content: center;
+   align-items: flex-start;
+   max-width: 100%;
+   gap: 20px;
+   width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
   
-}
-.text-color-h1{
-  color: #4E47FF;
-  font-size: largers;
-}
-.user-div-size p {
-  font-size: 12px; 
-}
-.contact-container{
-  height: 400px;
-  max-width: 1000px;
-  width: 100%;
-  background-color: #cacad6;
-  align-items: center;
-  padding: 40px;
-  border-radius: 15px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  
-}
+ }
 
-.text-size-h1{
-  font-size: 45px;
-}
-input{
-  width: 300px;
-  height: 20px;
-  font-size: 16px;
-  padding: 10px;
-  border-radius: 10px;
-}
-textarea{
-  width: 300px;
-  height: 60px;
-  font-size: 16px;
-  padding: 10px;
-  border-radius: 10px;
-}
-.contact-text {
-  flex: 1;
-  max-width: 60%; /* আপনার ডিজাইন অনুযায়ী 30% - 50% দিন */
-}
+ .review_section {
+   align-items: center;
+   width: 1100px;
+   max-width: 100%;
+   margin: auto;
+   padding-left: 20px;
+ }
 
-.contact-form {
-  flex: 1;
-  max-width: 60%; /* যাতে form বেশি জায়গা না নেয় */
-}
-.submit-btn
-{
-  background-color: #4E47FF;
-  width: 300px;
+ .reviewer_card {
+   padding: 24px;
+   background-color: #FFFFFF;
+   width: 366px;
+   height: 243px;
+ }
+
+ .reviewers {
+   margin-top: 100px;
+   font-size: 40px;
+   /* Optional: in case you want to style it */
+   font-weight: bold;
+   /* Optional */
+ }
+
+ input {
+   width: 300px;
+   height: 20px;
+   font-size: 16px;
+   padding: 10px;
+   border-radius: 10px;
+ }
+
+ textarea {
+   width: 300px;
+   height: 60px;
+   font-size: 16px;
+   padding: 10px;
+   border-radius: 10px;
+ }
+
+ .contact-text {
+   flex: 1;
+   max-width: 60%;
+   /* আপনার ডিজাইন অনুযায়ী 30% - 50% দিন */
+ }
+
+ .contact-form {
+   flex: 1;
+   max-width: 60%;
+   /* যাতে form বেশি জায়গা না নেয় */
+ }
+
+ .submit-btn {
+   background-color: #4E47FF;
+   width: 300px;
    height: 40px;
    text-align: center;
    border-radius: 10;
-}
-.footer-style{
+ }
+
+ .footer-style {
    display: flex;
    flex-direction: column;
    align-items: center;
    padding: 40px 20px;
-}
-.logo-color{
-  color: #4E47FF;
-  font-weight: 800;
-  font-size: 64px;
-}
-.footer-subtitle p {
-  text-align: center;
-  margin-top: 0;
-}
-.footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 40px; 
-  
-}
-.footer-links a {
-  text-decoration: none;
-}
+ }
+
+ .logo-color {
+   color: #4E47FF;
+   font-weight: 800;
+   font-size: 64px;
+ }
+
+ .footer-subtitle p {
+   text-align: center;
+   margin-top: 0;
+ }
+
+ .footer-links {
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+
+ }
+
+ .footer-links a {
+   text-decoration: none;
+ }
